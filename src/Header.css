@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   background-image: url(header3d.png) ;
+   background-size: cover 100%;
+   background-position: center;
+   height: 100%px;
+   
+}
+.header__icon {
+    object-fit: contain;
+    height: 60px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.header__center{
+    display: flex;
+    align-items: center;
+}
+.header__center > input {
+    border-radius: 15px;
+}
+.header__right {
+    display: flex;
+    margin-right: 10px;
+}
