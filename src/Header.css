@@ -2,11 +2,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-   background-image: url(header3d.png) ;
-   background-size: cover 100%;
-   background-position: center;
-   height: 100%px;
-   
+    background-image: url(header3d.png) ;
+    background-size: cover 100%;
+    background-position: center;
+    height: 100%px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 .header__icon {
     object-fit: contain;
@@ -18,11 +21,18 @@
 .header__center{
     display: flex;
     align-items: center;
+    flex: 1;
+    place-content: center;
 }
 .header__center > input {
     border-radius: 15px;
+    height: 30px !important;
+    width: 300px;
+    outline: none;
 }
 .header__right {
     display: flex;
     margin-right: 10px;
+    align-items: center;
+    justify-content: space-between;
 }
