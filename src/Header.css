@@ -25,7 +25,7 @@
     place-content: center;
 }
 .header__center > input {
-    border-radius: 15px;
+    border-radius: 20px;
     height: 30px !important;
     width: 300px;
     outline: none;

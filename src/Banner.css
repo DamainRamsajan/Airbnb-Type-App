@@ -12,9 +12,12 @@
 .banner__searchButton {
     background-color: white !important;
     font-weight: 900 !important;
+    font-size: 18px !important;
     text-transform: inherit !important;
     color:  #009304 !important;
     border-radius: 20px !important;
+    width: 585px !important;
+    left: 34.8%;
 }
 .banner__info {
    
@@ -33,7 +36,7 @@
     font-weight: 600;
 }
 .banner__info > button:hover {
-    background-color: white;
+    background-color: rgb(164, 248, 8);
     color:  #009304;
 }
 .banner__info > h1 {
