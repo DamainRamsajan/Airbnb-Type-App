@@ -10,11 +10,12 @@
     align-items: center;
     justify-content: space-between;
     width: 559px;
-    padding: 10;
+    padding: 10px;
     background-color: white;
     position: absolute;
     left: 0;
     top: 380px;
+
 }
 .search > input {
     width: 539px;
@@ -38,6 +39,10 @@
     width: 579px;
     font-weight: 700;
     font-size: 18px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
 }
 .search > button:hover {
     background-color: rgb(164, 248, 8);
