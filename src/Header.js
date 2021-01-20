@@ -4,11 +4,14 @@ import SearchIcon from "@material-ui/icons/Search";
 import LanguageIcon from "@material-ui/icons/Language"
 import ExpandMoreIcon from "@material-ui/icons/ArrowDropDown"
 import { Avatar } from '@material-ui/core';
+import {useHistory} from "react-router-dom";
 
 function Header() {
+    const history = useHistory();
+
     return (
         <div className ='header'>
-            <img className = "header__icon" src = "/images/logo4.png" alt="" />
+            <img onClick = {() => history.push("/")} className = "header__icon" src = "/images/logo4.png" alt="" />
 
             <div className = "header__center">
                 <input type = "text"/>

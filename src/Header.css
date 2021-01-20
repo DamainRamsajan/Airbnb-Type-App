@@ -17,6 +17,7 @@
     margin-left: 10px;
     margin-bottom: 5px;
     margin-top: 5px;
+    cursor: pointer;
 }
 .header__center{
     display: flex;

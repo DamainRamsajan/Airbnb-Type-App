@@ -29,18 +29,21 @@ function Home() {
             <div className = "home__section">
             <Card
                     src = "images/oneBedroomVilla.jpg"
-                    title = "Caribbean One-Bedroom Luxury Villas "
+                    title = "Caribbean One-Bedroom Luxury Villa "
                     discription = "Soft sand, warm water and just enough room for the two of you—what could be more romantic than a getaway to this Villa? Tucked into a crescent of beach on Sapodilla Bay"
+                    price = "$699/night "
                 />
                 <Card
                      src = "images/penthouse.jpg"
-                     title = "Caribbean Penthouses "
+                     title = "Caribbean Penthouse "
                      discription = "penthouse accommodations with access to five-star resort amenities in three of the Caribbean’s best islands: Anguilla, Barbados, and Turks & Caicos."
+                     price = "$999/night"
                 />
                 <Card
                     src = "images/threeBedroom.jpg"
                     title = "Three Bedroom Caribbean Apartment"
                     discription = "Immaculate 3 bedroom, 3 bathroom, luxury beachfront apartment, with a wide private terrace, sea views and Jacuzzi pool."
+                    price = "$1299/night"
                 />
             </div>
             

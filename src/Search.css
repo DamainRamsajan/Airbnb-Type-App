@@ -4,6 +4,7 @@
     left: 35%;
     /* width: 100vw; */
     z-index: 100;
+    
 }
 .search > h2 {
     display: flex;
